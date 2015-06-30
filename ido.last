@@ -1,0 +1,49 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("e:/" . "Documents/")
+ ("e:/Documents/GitHub/" . "C_intro_TG15/")
+ ("e:/Documents/" . "GitHub/")
+ ("c:/Users/Anders/AppData/Roaming/.emacs.d/" . "core/")
+ ("c:/Users/Anders/AppData/Roaming/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "e:/Documents/Blog/"
+ "e:/Documents/GitHub/C_intro_TG15/"
+ "c:/Users/Anders/AppData/Roaming/.emacs.d/core/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "e3.txt"
+ "main.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("e:/Documents/GitHub/C_intro_TG15/" (21901 57828 0 0) "The C Programming Lanugage.pptx" "The C Programming Lanugage.pdf" "README.md" "main.c" ".gitignore" ".git/" "../" "./")
+
+ ("e:/Documents/Blog/" (21905 25502 0 0) "../" "./")
+
+ ("c:/Users/" (21893 29596 0 0) "Public/" "desktop.ini" "Default User/" "Default/" "Anders/" "All Users/" "admin/" "../" "./")
+
+ ("c:/Users/Anders/" (21901 37547 0 0) "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{050e281c-7154-11e4-80c6-b8ca3aeea201}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{050e281c-7154-11e4-80c6-b8ca3aeea201}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{050e281c-7154-11e4-80c6-b8ca3aeea201}.TM.blf" "NTUSER.DAT{050e281b-7154-11e4-80c6-b8ca3aeea201}.TxR.blf" "NTUSER.DAT{050e281b-7154-11e4-80c6-b8ca3aeea201}.TxR.2.regtrans-ms" "NTUSER.DAT{050e281b-7154-11e4-80c6-b8ca3aeea201}.TxR.1.regtrans-ms" "NTUSER.DAT{050e281b-7154-11e4-80c6-b8ca3aeea201}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".VirtualBox/" ".ssh/" ".gitconfig" ".emacs.d/" "../" "./")
+
+ ("e:/Documents/GitHub/" (21839 57809 0 0) "Oblig2_inf2270/" "C_intro_TG15/" "../" "./")
+
+ ("c:/Users/Anders/AppData/Roaming/.emacs.d/core/" (21901 19868 0 0) "prelude-ui.elc" "prelude-ui.el" "prelude-packages.elc" "prelude-packages.el" "prelude-osx.el" "prelude-modules.elc" "prelude-modules.el" "prelude-mode.elc" "prelude-mode.el" "prelude-global-keybindings.elc" "prelude-global-keybindings.el" "prelude-editor.elc" "prelude-editor.el" "prelude-custom.elc" "prelude-custom.el" "prelude-core.elc" "prelude-core.el" "../" "./")
+
+ ("c:/Users/Anders/AppData/Roaming/.emacs.d/auto-save-list/" (21901 20025 0 0) "../" "./")
+
+ ("c:/Users/Anders/AppData/Roaming/.emacs.d/" (21901 19656 0 0) "vendor/" "var/" "utils/" "themes/" "savefile/" "sample/" "README.md" "projectile-bookmarks.eld" "personal/" "modules/" "init.elc" "init.el" "elpa/" "core/" "CONTRIBUTING.md" "auto-save-list/" ".projectile" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/Anders/AppData/Roaming/" (21901 19087 0 0) "vlc/" "Tera_Awesomium/" "SteelSeries/" "Skype/" "qBittorrent/" "OBS/" "NVIDIA/" "NuGet/" "Notepad++/" "Mumble/" "Mozilla/" "Microsoft/" "Macromedia/" "KeePass/" "InstallShield/" "GitHub/" "Foxit Software/" "FileZilla/" "DarkSoulsII/" "Corsair/" "Boxstarter/" "BitTorrent Sync/" "ASUS/" "Adobe/" ".erc/" ".emacs.d/" "../" "./")
+
+ ("e:/Documents/" (21895 58546 0 0) "Visual Studio 2013/" "virtual_shared/" "Virtual Machines/" "utils/" "Unreal Projects/" "The Witcher 3/" "tgPakkeListe.txt" "skole/" "savedgames/" "Rockstar Games/" "projects/" "passwords-anders-all.key" "passwords-anders-all.kdbx" "orgAgendaer/" "Nedlastinger/" "nbgi/" "my games/" "MumbleAutomaticCertificateBackup.p12" "logisim/" "Larian Studios/" "key.txt" "GitHub/" "desktop.ini" "dailyProgrammer/" "backup.bat" "3DMarkFarandole/" "3DMark/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
