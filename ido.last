@@ -24,6 +24,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("e:/Documents/" (21908 4721 0 0) "Visual Studio 2013/" "virtual_shared/" "Virtual Machines/" "utils/" "Unreal Projects/" "The Witcher 3/" "tgPakkeListe.txt" "skole/" "savedgames/" "Rockstar Games/" "projects/" "passwords-anders-all.key" "passwords-anders-all.kdbx" "orgAgendaer/" "Nedlastinger/" "nbgi/" "my games/" "MumbleAutomaticCertificateBackup.p12" "logisim/" "Larian Studios/" "key.txt" "GitHub/" "desktop.ini" "dailyProgrammer/" "Blog/" "backup.bat" "3DMarkFarandole/" "3DMark/" "../" "./")
+
  ("e:/Documents/GitHub/C_intro_TG15/" (21901 57828 0 0) "The C Programming Lanugage.pptx" "The C Programming Lanugage.pdf" "README.md" "main.c" ".gitignore" ".git/" "../" "./")
 
  ("e:/Documents/Blog/" (21905 25502 0 0) "../" "./")
@@ -41,8 +43,6 @@
  ("c:/Users/Anders/AppData/Roaming/.emacs.d/" (21901 19656 0 0) "vendor/" "var/" "utils/" "themes/" "savefile/" "sample/" "README.md" "projectile-bookmarks.eld" "personal/" "modules/" "init.elc" "init.el" "elpa/" "core/" "CONTRIBUTING.md" "auto-save-list/" ".projectile" ".gitignore" ".git/" "../" "./")
 
  ("c:/Users/Anders/AppData/Roaming/" (21901 19087 0 0) "vlc/" "Tera_Awesomium/" "SteelSeries/" "Skype/" "qBittorrent/" "OBS/" "NVIDIA/" "NuGet/" "Notepad++/" "Mumble/" "Mozilla/" "Microsoft/" "Macromedia/" "KeePass/" "InstallShield/" "GitHub/" "Foxit Software/" "FileZilla/" "DarkSoulsII/" "Corsair/" "Boxstarter/" "BitTorrent Sync/" "ASUS/" "Adobe/" ".erc/" ".emacs.d/" "../" "./")
-
- ("e:/Documents/" (21895 58546 0 0) "Visual Studio 2013/" "virtual_shared/" "Virtual Machines/" "utils/" "Unreal Projects/" "The Witcher 3/" "tgPakkeListe.txt" "skole/" "savedgames/" "Rockstar Games/" "projects/" "passwords-anders-all.key" "passwords-anders-all.kdbx" "orgAgendaer/" "Nedlastinger/" "nbgi/" "my games/" "MumbleAutomaticCertificateBackup.p12" "logisim/" "Larian Studios/" "key.txt" "GitHub/" "desktop.ini" "dailyProgrammer/" "backup.bat" "3DMarkFarandole/" "3DMark/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
