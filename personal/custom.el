@@ -17,7 +17,12 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Consolas" :foundry "outline" :slant normal :weight bold :height 120 :width normal)))))
 
- 
+(prelude-require-packages '(ido-vertical-mode
+                            smex
+                            auto-complete
+                            color-theme-sanityinc-solarized
+                            color-theme-sanityinc-tomorrow))
+
  (require 'ido-vertical-mode)
 (ido-mode 1)
 (ido-vertical-mode 1)
@@ -45,8 +50,6 @@
 (setq shift-selection-mode t)
 
 ;; auto-complete
-
-(prelude-require-package 'auto-complete)
 (require 'auto-complete-config)
 (global-auto-complete-mode t)
 (setq-default ac-expand-on-auto-complete nil)
