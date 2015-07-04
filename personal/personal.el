@@ -3,7 +3,8 @@
                             smex
                             auto-complete
                             color-theme-sanityinc-solarized
-                            color-theme-sanityinc-tomorrow))
+                            color-theme-sanityinc-tomorrow
+                            ample-theme))
 
  (require 'ido-vertical-mode)
 (ido-mode 1)
@@ -30,6 +31,9 @@
 (global-unset-key (vector (list 'shift 'down)))
 
 (setq shift-selection-mode t)
+
+;; FUCK OFF IDO SEARCH FUCTION
+(setq ido-auto-merge-work-directories-length -1)
 
 ;; auto-complete
 (require 'auto-complete-config)
