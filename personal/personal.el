@@ -32,6 +32,9 @@
 
 (setq shift-selection-mode t)
 
+;; REMOVE FUCKING BELL SHIT
+(setq ring-bell-function 'ignore)
+
 ;; FUCK OFF IDO SEARCH FUCTION
 (setq ido-auto-merge-work-directories-length -1)
 
