@@ -38,6 +38,77 @@
 ;; FUCK OFF IDO SEARCH FUCTION
 (setq ido-auto-merge-work-directories-length -1)
 
+;; maximum power
+(add-hook 'emacs-startup-hook 'toggle-frame-maximized)
+(add-hook 'emacs-startup-hook 'split-window-right)
+
+;; dont split windows
+
+(defun casey-never-split-a-window
+    "Never, ever split a window.  Why would anyone EVER want you to do that??"
+  nil)
+(setq split-window-preferred-function 'casey-never-split-a-window)
+
+;; compile from Casey's .emacs
+(setq casey-aquamacs (featurep 'aquamacs))
+(setq casey-linux (featurep 'x))
+(setq casey-win32 (not (or casey-aquamacs casey-linux)))
+(setq compilation-directory-locked nil)
+
+(defun casey-big-fun-compilation-hook ()
+  (make-local-variable 'truncate-lines)
+  (setq truncate-lines nil)
+  )
+
+(add-hook 'compilation-mode-hook 'casey-big-fun-compilation-hook)
+
+
+(when casey-win32 
+  (setq casey-makescript "build.bat")
+  )
+
+(setq compilation-context-lines 0)
+(setq compilation-error-regexp-alist
+    (cons '("^\\([0-9]+>\\)?\\(\\(?:[a-zA-Z]:\\)?[^:(\t\n]+\\)(\\([0-9]+\\)) : \\(?:fatal error\\|warnin\\(g\\)\\) C[0-9]+:" 2 3 nil (4))
+     compilation-error-regexp-alist))
+
+(defun find-project-directory-recursive ()
+  "Recursively search for a makefile."
+  (interactive)
+  (if (file-exists-p casey-makescript) t
+      (cd "../")
+      (find-project-directory-recursive)))
+
+(defun lock-compilation-directory ()
+  "The compilation process should NOT hunt for a makefile"
+  (interactive)
+  (setq compilation-directory-locked t)
+  (message "Compilation directory is locked."))
+
+(defun unlock-compilation-directory ()
+  "The compilation process SHOULD hunt for a makefile"
+  (interactive)
+  (setq compilation-directory-locked nil)
+  (message "Compilation directory is roaming."))
+
+(defun find-project-directory ()
+  "Find the project directory."
+  (interactive)
+  (setq find-project-from-directory default-directory)
+  (switch-to-buffer-other-window "*compilation*")
+  (if compilation-directory-locked (cd last-compilation-directory)
+  (cd find-project-from-directory)
+  (find-project-directory-recursive)
+  (setq last-compilation-directory default-directory)))
+
+(defun make-without-asking ()
+  "Make the current build."
+  (interactive)
+  (if (find-project-directory) (compile casey-makescript))
+  (other-window 1))
+(define-key global-map "\em" 'make-without-asking)
+
+
 ;; auto-complete
 (require 'auto-complete-config)
 (global-auto-complete-mode t)

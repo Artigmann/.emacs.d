@@ -1,2 +1,58 @@
-((("This" .
-   [1 0 0 1])))
+((("menuChoice" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("This" .
+   [1 0 0 1])
+  ("xInputlibrary" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 5])
+  ("LoadLibraryA" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("OutputDebugStringA" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("win32_sound_output" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("samplesPerSecond" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("toneHz" .
+   [0 0 0 0 1 2])
+  ("toneVolume" .
+   [0 0 0 0 0 0 0 0 0 3])
+  ("runningSampleIndex" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("bytesPerSample" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 3])
+  ("secondaryBufferSize" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("DWORD" .
+   [0 0 0 0 5])
+  ("bytesToWrite" .
+   [0 0 0 0 0 0 1 0 0 0 0 5])
+  ("soundOutput" .
+   [0 0 0 0 0 0 0 1 0 0 15])
+  ("tSine" .
+   [0 0 0 0 2])
+  ("pi32" .
+   [0 0 0 1])
+  ("wavePeriod" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("latencySampleCount" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("win32FillSoundBuffer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("globalSecondaryBuffer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Play" .
+   [0 0 0 1])
+  ("DSBPLAY_LOOPING" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("byteToLock" .
+   [0 0 0 0 0 0 0 0 0 5])
+  ("second" .
+   [0 0 0 0 0 1])
+  ("playCursor" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("targetCursor" .
+   [0 0 0 0 0 0 0 0 0 0 0 3])
+  ("sineValue" .
+   [0 0 0 0 0 0 0 0 2])
+  ("stickY" .
+   [0 0 0 0 0 1])))
